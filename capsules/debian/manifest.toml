@@ -1,0 +1,4 @@
+name = "Debian Bookworm"
+kernel = "vmlinuz"
+initrd = "initrd.img"
+cmdline = "root=/dev/sda2 ro quiet"
