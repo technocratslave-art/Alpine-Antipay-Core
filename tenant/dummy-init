@@ -1,0 +1,7 @@
+#!/bin/sh
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
+echo "[tenant] booted successfully"
+echo "[tenant] cmdline: $(cat /proc/cmdline)"
+echo "[tenant] floor facts path: ${floor_facts:-/run/floor/facts.json}"
+sleep 999999
